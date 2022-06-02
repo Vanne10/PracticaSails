@@ -6,7 +6,9 @@
  */
 
 module.exports = {
-  
-
+    getAllArticulos: async function (req, res) {
+        var misArticulos = await Articulos.find();
+        res.ok(misArticulos);
+    }
 };
 
