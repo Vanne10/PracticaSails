@@ -12,11 +12,11 @@ module.exports = {
     nombre: {
       type: 'string', required: true
     },
-    categoria: {
-      descripcion: 'string', allowNull: true
+    descripcion: {
+      type: 'string', allowNull: true
     },
-    edad: {
-      precio: 'number', required: true
+    precio: {
+      type: 'number', required: true
     }
 
   },

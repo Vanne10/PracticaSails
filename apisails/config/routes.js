@@ -21,8 +21,10 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
   'GET /usuarios': 'UserController.getAllUsers',
-  'GET /articulos': 'ArticulosController.getAllArticulos'
-
+  //'GET /articulos': 'ArticulosController.getAllArticulos',
+  'POST /usuarios': 'UserController.post',
+  'PUT /usuarios': 'UserController.put',
+  'DELETE /usuarios': 'UserController.delete'
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
